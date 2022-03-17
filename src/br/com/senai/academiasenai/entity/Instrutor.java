@@ -21,7 +21,4 @@ public class Instrutor {
 	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
 	}
-	
-	
-
 }

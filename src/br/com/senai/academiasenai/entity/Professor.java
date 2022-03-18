@@ -8,7 +8,7 @@ public class Professor {
 	
 	private String nomeCompleto;
 	
-	private LocalDate dataDeAdmissao;
+	private LocalDate dataDeCasamento;
 
 	public Integer getId() {
 		return id;
@@ -26,13 +26,12 @@ public class Professor {
 		this.nomeCompleto = nomeCompleto;
 	}
 
-	public LocalDate getDataDeAdmissao() {
-		return dataDeAdmissao;
+	public LocalDate getDataDeCasamento() {
+		return dataDeCasamento;
 	}
 
-	public void setDataDeAdmissao(LocalDate dataDeAdmissao) {
-		this.dataDeAdmissao = dataDeAdmissao;
+	public void setDataDeCasamento(LocalDate dataDeCasamento) {
+		this.dataDeCasamento = dataDeCasamento;
 	}
-	
-	
+
 }
